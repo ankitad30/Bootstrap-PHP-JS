@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>App Landing</title>
+
+    <!-- Bootstrap -->
+    <link href="/Users/ankitadash/Desktop/My Websites/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+   
+  <style>
+
+  
+ .navbar-brand {
+  font-size: 1.8em;
+ }
+
+ #topContainer{
+  background-image:url("/Users/ankitadash/Desktop/My Websites/IMAGES/imgapp.jpg");
+  height: 1500px;
+  width:100%;
+  background-size: cover;
+ }
+
+ #topRow{
+  margin-top:100px;
+  text-align:center;
+
+ }
+
+ #topRow h1{
+  font-size:300%;
+   text-decoration: underline;
+   font-style:oblique;
+ }
+
+ .mainheader{
+
+  position:relative;
+  left:350px;
+
+ }
+
+ .lead{
+   color:white;
+
+ }
+
+ .lead1 {
+  color: black;
+  font-size: 1.2em;
+ }
+
+ #topRow p {
+
+  color:white;
+ }
+
+ h1{
+  font-size:300%;
+ }
+
+ .bold{
+  font-weight: bold;
+  color:red;
+  font-size:1.5em;
+ }
+
+ .marginTop{
+  margin-top:30px;
+ }
+
+.center{
+  text-align: center;
+}
+
+#footer{
+  background-color:#00CCFF; 
+  padding-top:70px;
+  width:100%;
+}
+
+.marginBottom {
+  margin-bottom: 30px;
+}
+
+.appstoreImage{
+  width:200px;
+}
+
+
+
+  </style>
+
+
+
+
+
+  </head>
+  <body>
+
+
+   <div class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+         <div class="navbar-header">
+             <button class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand">MyApp</a>
+         </div>
+      
+     <div class="collapse navbar-collapse">
+       <ul class="nav navbar-nav">    
+         <li class="active"><a href="#topContainer">Home</a></li>
+         <li><a href="#details">About</a></li>
+         <li><a href="#footer">Download The App</a></li>
+       </ul>
+
+       <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="email" placeholder="Email" class="form-control">
+        </div>
+
+         <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>
+        <button type="submit" class="btn  btn-success"> Log In </button>
+
+      </form>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class= "container contentContainer" id ="topContainer">
+
+    <div class="row">
+      <div class="col-md-6" id="topRow">
+
+        <h1 class="marginTop mainheader"> My Awesome App</h1>
+
+        <p class="lead center mainheader"> This is why you should download this fantastic App </p>
+        <p class="mainheader"> Some more information about the App. You can go into a little more detail if you want to </p>
+
+        <p class="bold marginTop mainheader"> Interetsed? Join our mailing List! </p>
+
+
+      <form class="marginTop mainheader">
+
+        <div class="input-group">
+          <span class="input-group-addon">@</span>
+
+          <input type="email" class="form-control" placeholder="Your Email"/>
+          
+
+        </div>
+        <input type="submit" class="btn btn-success btn-lg marginTop"/>
+
+
+
+      </form>
+      </div>
+
+
+
+    </div>
+
+
+    </div>
+
+    <div class=" container contentContainer">
+
+      <div class="row" class="center">
+        <h1 class="center"> Why this App is Awesome </h1>
+        <p class="lead1 center"> Summary of the app's awesomeness</p>
+
+      </div>
+ </div class="row marginBottom">
+    <div class="col-md-4 marginTop">
+
+    <h2 span class="glyphicon glyphicon-music">  </span> Title 1</h2>
+    <br/>
+    <p>A brief description of one of the best features of App. Some detailed explanition.A brief description of one of the best features of App. Some detailed explanition. </p>
+
+
+    <button class="btn btn-success marginTop">Sign Up! </button>
+</div>
+
+
+<div class="col-md-4 marginTop">
+
+    <h2 span class="glyphicon glyphicon-off">  </span> Title 2</h2>
+    <br/>
+    <p>A brief description of one of the best features of App. Some detailed explanition.A brief description of one of the best features of App. Some detailed explanition. </p>
+
+
+    <button class="btn btn-success marginTop">Sign Up! </button>
+
+
+</div>
+
+<div class="col-md-4 marginTop">
+
+    <h2 span class="glyphicon glyphicon-pencil">  </span> Title 3</h2>
+    <br/>
+    <p>A brief description of one of the best features of App. Some detailed explanition.A brief description of one of the best features of App. Some detailed explanition. </p>
+
+
+    <button class="btn btn-success marginTop">Sign Up! </button>
+
+
+</div>
+</div>
+
+<div class="container contentContainer" id="footer">
+
+ <div class="row">
+
+ <h1 class="center ">Download the App </h1>
+  <p class="lead1 center"> Really why should I download this App? </p>
+  <p class= "center"> <img src="/Users/ankitadash/Desktop/My Websites/IMAGES/appstore.png" class="appstoreImage"/>
+
+ </div>
+
+
+
+</div>
+
+    
+<script="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script src="/Users/ankitadash/Desktop/My Websites/Bootstrap/js/bootstrap.min.js"> </script>
+
+<script>
+
+$(".contentContainer").css("min-height", $(window).height());
+
+</script>
+
+
+   
+  </body>
+</html>
